@@ -34,5 +34,7 @@ int main() //funcao principal
 		printf("Nao possui raizes reais"); //mostra na tela a mensagem que nao possui raizes reais
 	}
 
+	system("pause"); //da uma pausa no programa
+
 	return 0; //por se tratar de uma funcao inteira significa que a funcao esta ok
 }
