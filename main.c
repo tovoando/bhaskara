@@ -17,7 +17,7 @@ int main() //funcao principal
 	
 	if (a == 0) //se a for 0 nao existe funcao de segundo grau
 	{
-		printf("Nao e uma funcao de segundo grau"); //mostra na tela a mensagem que nao possui funcao de segundo grau
+		printf("Nao e uma funcao de segundo grau\n"); //mostra na tela a mensagem que nao possui funcao de segundo grau
 	}
 	
 	else if (delta >= 0) //senao se delta for maior que 0 ele mostra as duas raizes reais
@@ -26,14 +26,15 @@ int main() //funcao principal
 		x1 = (-b + raiz) / (2 * a); //calculo do x1
 		x2 = (-b - raiz) / (2 * a); //calculo do x2
 		
-		printf("As raizes reais sao:\nx1 = %.2f\nx2 = %.2f", x1, x2); //mostra na tela os valores de x1 e x2
+		printf("As raizes reais sao:\nx1 = %.2f\nx2 = %.2f\n", x1, x2); //mostra na tela os valores de x1 e x2
 	}
 
 	else //senao para demais casos (se delta for menor que 0) ele nao possui raizes reais
 	{
-		printf("Nao possui raizes reais"); //mostra na tela a mensagem que nao possui raizes reais
+		printf("Nao possui raizes reais\n"); //mostra na tela a mensagem que nao possui raizes reais
 	}
 
+	printf("\n"); //pula uma linha
 	system("pause"); //da uma pausa no programa
 
 	return 0; //por se tratar de uma funcao inteira significa que a funcao esta ok
